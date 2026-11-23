@@ -1,0 +1,6 @@
+---
+app_image: ghcr.io/pavlentiygo/devops-ci-app
+app_tag: "fa2f79f61c89433508d6d4343268bd4194d2327a"
+app_container_name: devops-ci-app
+app_host_port: 5000
+app_internal_port: 5000
