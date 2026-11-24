@@ -134,7 +134,7 @@ jobs:
 
       - name: Deploy with Ansible
         working-directory: ansible
-        run: ansible-playbook site.yml -e "app_tag=demo-${GITHUB_SHA}"
+        run: ansible-playbook site.yml -e "app_tag=${GITHUB_SHA}"
 
       - name: Check through Nginx
         run: |
